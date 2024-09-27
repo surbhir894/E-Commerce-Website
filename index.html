@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-commerce Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+<style>
+  .hero {
+    display: none;
+  }
+
+  .category-menu-wr:hover .hero {
+    display: block;
+  }
+
+  .hero li a:hover {
+    color: blue !important;
+  }
+
+  .category-item-2:hover .list-sub-menu {
+    display: block !important;
+  }
+
+  .logo {
+    width: 50px !important;
+  }
+</style>
+
+<body>
+  <!-- Navbar-->
+  <header class="sticky-top start-0 end-0 border-bottom ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img src="./assets/images/logo.png" alt="" class="logo " />
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+                     <!-- Explore  -->
+            <li class="nav-item category-menu-wr ">
+              <a class="nav-link" href="#">Explore</a>
+              <!-- hero section -->
+              <div class="hero start-0 end-0 position-fixed z-3 py-5 bg-body-tertiary">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <h4 class="fs-5">Kitchen Utensils</h4>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" class="text-decoration-none text-black"
+                            href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="col">
+                      <h4 class="fs-5">Electronic Gadgets</h4>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" class="text-decoration-none text-black"
+                            href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="col">
+                      <h4 class="fs-5">Clothing Brands</h4>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" class="text-decoration-none text-black"
+                            href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="col align-items-center justify-content-center">
+                      <img class="w-50" src="./assets/images/phone.jpeg" alt="" />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Eaque possimus natus recusandae aliquam quod
+                        susc
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+                     <!-- For You  -->
+            <li class="nav-item category-menu-wr">
+              <a class="nav-link" href="#">For You</a>
+              <!-- hero section -->
+              <div class="hero start-0 end-0 position-fixed z-3 py-5 bg-body-tertiary">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <h4 class="fs-5">Pocket Bazaar</h4>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" class="text-decoration-none text-black"
+                            href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                        <li class="list-group-item ps-0 bg-body-tertiary">
+                          <a class="text-decoration-none text-black" href="#">Lorem Ipsum is Simply</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+                    <!-- search  -->
+          <form class="d-flex bg-white w-50" role="search">
+            <div class="input-group">
+              <input type="search" class="form-control" aria-label="Search" placeholder="Search" />
+              <button class="input-group-text bg-transparent" type="button">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </form>
+          <div class="d-flex gap-3 ms-3">
+            <i class="bi bi-heart-fill"></i>
+            <i class="bi bi-cart"></i>
+            <i class="bi bi-box-arrow-in-left"></i>
+          </div>
+          <div class="d-flex gap-3 ms-3">
+            <a href="./signin.html" class="btn btn-success">Log In</a>
+            <a href="./signup.html" class="btn btn-outline-success">SignUp</a>
+          </div>
+          <!-- my-Accout -->
+          <a href="my-accout.html" class="btn btn-success ms-3 d-none">My Account</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Hero-section -->
+
+  <!-- <footer
+      class="sticky-bottom start-0 end-0 bg-white py-3 px-3 text-center border-top">
+      Footer
+    </footer>  -->
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
