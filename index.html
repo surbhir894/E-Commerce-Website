@@ -10,28 +10,12 @@
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
-<style>
-  .hero {
-    display: none;
-  }
 
-  .category-menu-wr:hover .hero {
-    display: block;
-  }
-
-  .hero li a:hover {
-    color: blue !important;
-  }
-
-  .category-item-2:hover .list-sub-menu {
-    display: block !important;
-  }
-
-  .logo {
-    width: 50px !important;
-  }
-</style>
 
 <body>
   <!-- Navbar-->
@@ -48,7 +32,7 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-                     <!-- Explore  -->
+            <!-- Explore  -->
             <li class="nav-item category-menu-wr ">
               <a class="nav-link" href="#">Explore</a>
               <!-- hero section -->
@@ -142,7 +126,7 @@
                 </div>
               </div>
             </li>
-                     <!-- For You  -->
+            <!-- For You  -->
             <li class="nav-item category-menu-wr">
               <a class="nav-link" href="#">For You</a>
               <!-- hero section -->
@@ -179,7 +163,7 @@
               </div>
             </li>
           </ul>
-                    <!-- search  -->
+          <!-- search  -->
           <form class="d-flex bg-white w-50" role="search">
             <div class="input-group">
               <input type="search" class="form-control" aria-label="Search" placeholder="Search" />
@@ -206,15 +190,232 @@
 
 
   <!-- Hero-section -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="https://placehold.co/900x300" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://placehold.co/900x300" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://placehold.co/900x300" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://placehold.co/900x300" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://placehold.co/900x300" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://placehold.co/900x300" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://placehold.co/900x300" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://placehold.co/900x300" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://placehold.co/900x300" alt="" />
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Product-list -->
+  <section class="product py-5">
+    <div class="container">
+      <h2 class="mb-5">
+        <span class="text-primary border-bottom border-primary border-3 pb-2">
+          Recent
+        </span>
+        Product
+      </h2>
+      <div class="product-listing">
+        <div class="row">
+          <div class="col col-sm-6 col-md-3 col-lg-3">
+            <div class="card border-primary mb-5">
+              <img class="card-img-top mb-2" src="https://placehold.co/100x80" alt="Title" />
+              <div class="card-body shadow-lg">
+                <h4 class="card-title mb-3 text-truncate">
+                  Fastrack Optimus Pro with 1.43" AMOLED Display &
+                  AOD(466x466),Functional Crown,BT Calling Smartwatch (Green
+                  Strap, Free Size)
+                </h4>
+                <p class="card-text">31,009 Ratings & 2,012 Reviews</p>
+                <p class="fs-4 fw-bold d-flex gap-2 align-items-center flex-wrap">
+                  <span class="text-body-tertiary fw-medium"><del>₹5,995</del></span>
+                  ₹1,699 <span class="text-success fs-3"> 71%</span>off
+                </p>
+                <button class="px-4 mx-auto btn btn-primary btn-lg rounded-0 d-flex align-items-center gap-2">
+                  <i class="bi bi-cart"> </i>
+                  Add to cart
+                </button>
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second-col -->
+          <div class="col col-sm-6 col-md-3 col-lg-3">
+            <div class="card border-primary mb-5">
+              <img class="card-img-top mb-2" src="https://placehold.co/100x80" alt="Title" />
+              <div class="card-body shadow-lg">
+                <h4 class="card-title mb-3 text-truncate">
+                  Fastrack Optimus Pro with 1.43" AMOLED Display &
+                  AOD(466x466),Functional Crown,BT Calling Smartwatch (Green
+                  Strap, Free Size)
+                </h4>
+                <p class="card-text">31,009 Ratings & 2,012 Reviews</p>
+                <p class="fs-4 fw-bold d-flex gap-2 align-items-center flex-wrap">
+                  <span class="text-body-tertiary fw-medium"><del>₹5,995</del></span>
+                  ₹1,699 <span class="text-success fs-3"> 71%</span>off
+                </p>
+                <button class="px-4 mx-auto btn btn-primary btn-lg rounded-0 d-flex align-items-center gap-2">
+                  <i class="bi bi-cart"> </i>
+                  Add to cart
+                </button>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <!-- Third-col -->
+          <div class="col col-sm-6 col-md-3 col-lg-3">
+            <div class="card border-primary mb-5">
+              <img class="card-img-top mb-2" src="https://placehold.co/100x80" alt="Title" />
+              <div class="card-body shadow-lg">
+                <h4 class="card-title mb-3 text-truncate">
+                  Fastrack Optimus Pro with 1.43" AMOLED Display &
+                  AOD(466x466),Functional Crown,BT Calling Smartwatch (Green
+                  Strap, Free Size)
+                </h4>
+                <p class="card-text">31,009 Ratings & 2,012 Reviews</p>
+                <p class="fs-4 fw-bold d-flex gap-2 align-items-center flex-wrap">
+                  <span class="text-body-tertiary fw-medium"><del>₹5,995</del></span>
+                  ₹1,699 <span class="text-success fs-3"> 71%</span>off
+                </p>
+                <button class="px-4 mx-auto btn btn-primary btn-lg rounded-0 d-flex align-items-center gap-2">
+                  <i class="bi bi-cart"> </i>
+                  Add to cart
+                </button>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <!-- fourth-col -->
+          <div class="col col-sm-6 col-md-3 col-lg-3">
+            <div class="card border-primary mb-5">
+              <img class="card-img-top mb-2" src="https://placehold.co/100x80" alt="Title" />
+              <div class="card-body shadow-lg">
+                <h4 class="card-title mb-3 text-truncate">
+                  Fastrack Optimus Pro with 1.43" AMOLED Display &
+                  AOD(466x466),Functional Crown,BT Calling Smartwatch (Green
+                  Strap, Free Size)
+                </h4>
+                <p class="card-text">31,009 Ratings & 2,012 Reviews</p>
+                <p class="fs-4 fw-bold d-flex gap-2 align-items-center flex-wrap">
+                  <span class="text-body-tertiary fw-medium"><del>₹5,995</del></span>
+                  ₹1,699 <span class="text-success fs-3"> 71%</span>off
+                </p>
+                <button class="px-4 mx-auto btn btn-primary btn-lg rounded-0 d-flex align-items-center gap-2">
+                  <i class="bi bi-cart"> </i>
+                  Add to cart
+                </button>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <!-- <footer
       class="sticky-bottom start-0 end-0 bg-white py-3 px-3 text-center border-top">
       Footer
     </footer>  -->
+
+  <footer id="footer1 d-none">
+    <div class="container-fluid bg-black text-white mt-3">
+      <div class="row">
+        <div class="col-lg-2">
+          <h5 class="mt-4 text-center">Info</h5>
+          <div class="list text-secondary text-center">
+            <p>Formats</p>
+            <p>Compression</p>
+            <p>Pricing</p>
+            <p>FAQ</p>
+            <p>Status</p>
+            <p>Policy</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <h5 class="mt-4 text-center">Getting Started</h5>
+          <div class="list text-secondary text-center">
+            <p>Introduction</p>
+            <p>Themes</p>
+            <p>Documentation</p>
+            <p>Usages</p>
+            <p>Elements</p>
+            <p>Global</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <h5 class="mt-4 text-center">Resources</h5>
+          <div class="list text-secondary text-center">
+            <p>API</p>
+            <p>Form Validation</p>
+            <p>Accessibility</p>
+            <p>Marketplace</p>
+            <p>Visibility</p>
+            <p>Community</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="list">
+            <h5 class="mt-4 text-center">Newsletter</h5>
+            <p class="text-secondary text-center">
+              Subcribe to our newsletter for a weekly close of news, Update,
+              helpful tips, and exclusive offers.
+            </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-outline-primary">
+                Your email
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                SUBSCRIBE
+              </button>
+              <div class="icon fs-4 d-flex justify-content-center align-items-center pt-3 gap-3">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-github"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!-- Bootstrap JS and dependencies -->
- 
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
- 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
 </body>
 
 </html>
